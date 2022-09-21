@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: always (Success)
+ * main - entry point
+ * Description: prints if a number is positive or negative.
+ * Return: 0
  */
-
 int main(void)
 {
 	int n;
@@ -20,7 +19,7 @@ int main(void)
 	else if (n == 0)
 	{										printf("%d is zero\n", n);
 	}
-	else
+	else if (n < 0)
 	{	
 		printf("%d is negative\n", n);
 								
